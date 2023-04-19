@@ -1,0 +1,19 @@
+.footer {
+
+    background-image: url('1.jpg');
+    
+    background-repeat: repeat-x;
+
+    position: fixed;
+    
+    height: 100%;
+    
+    width: 100%;
+    
+    z-index: -101;
+    
+    text-align : center;
+    
+    
+    
+    }
