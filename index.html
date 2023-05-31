@@ -22,9 +22,7 @@
     <!--<body style="background-color:rgb(169, 169, 161);">-->
         <!--标题-->
 
-        <div class="footer">
-            <img src="1.jpg" alt="Example Image"  >
-        </div>
+        
         
         <h1>一级标题</h1>  <!--标题级别： h1-h6  -->
         <h2>二级标题</h2>
@@ -41,7 +39,7 @@
        <!--
         <p style="font-family:verdana;text-align:center;margin-left:20px;">
        --> 
-       <p style="font-family:verdana;text-align:center;margin-left:20px;">我的第一个段落。</p>
+       <h3></h><p style="font-family:verdana;text-align:center;margin-left:20px;">我的第一个段落。</p></h3>
        <p>  我们无法确定 <span style="color:blue">HTML</span> 被显示的确切效果。屏幕的大小，
         以及对窗口的调整都可能导致不同的结果。对于 <span style="color:blue">HTML</span>,
         您无法通过在 <span style="color:blue">HTML</span> 
@@ -57,7 +55,7 @@
 
 
         <!--超链接-->
-        <a href="http://www.baidu.com">百度一下</a><br>
+        <!-- <a href="http://www.baidu.com">百度一下</a><br> -->
         
         <!--不太理解这个id标签-->
         <!--
@@ -79,77 +77,16 @@
 
         -->
         <!--带有可点击区域的图像映射：-->
-        <img decoding="async" src="image.png" alt="樱花" text-align="center" width="250" height="300 " usemap="#planetmap"/><!--文字的位置如何摆放？-->
+        <!-- <img decoding="async" src="image.png" alt="樱花" text-align="center" width="250" height="300 " usemap="#planetmap"/>文字的位置如何摆放？ -->
         
-        <map name="planetmap">
+        <!-- <map name="planetmap">
             <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
             <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
             <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
-          </map>
+          </map> -->
         
-        <!--表格 table
-            <tr>:定义行
-            <td>:定义单元格
-            <th>:定义表头
-            border:显示边框，等于0时没有边框
-            cellpadding="10"：单元格边距
-            colspan="2"：横跨2列
-            rowspan="2":横跨2行
-            cellspacing="10"：单元格间距为10
         
-        -->
-        <table border="1">
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>		
-                <th>Points</th>
-            </tr>
-            <tr>
-                <td>Jill</td>
-                <td>Smith</td>		
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Eve</td>
-                <td>Jackson</td>		
-                <td>94</td>
-            </tr>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>		
-                <td>80</td>
-            </tr>
-            <tr>
-                <td>Adam</td>
-                <td>Johnson</td>		
-                <td>67</td>
-            </tr>
-        </table>
-
-        <!--列表
-            <ol>：定义有序列表
-            <ul>：定义无序列表
-            <li>：定义列表项
-            <dl>：定义列表
-            <dt>：自定义列表项目
-            <dd>：定义自定列表项的描述
-
-            type:不同类型的列表，默认为编号列表 (type="A", "a" ,"I", "i"大/小写字母表,大/小写罗马字母表)
-
-        -->
-        <ol>
-            <li>Apples</li>
-            <li>Bananas</li>
-            <li>Lemons</li>
-            <li>Oranges</li>
-        </ol>  
-
-        <dl>
-            <dt>Coffee</dt>
-            <dd>- black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>- white cold drink</dd>
-        </dl>
+      
 
         <!--区块
             <div>:大多数 HTML 元素被定义为块级元素或内联元素。块级元素在浏览器显示时，通常会以新行来开始（和结束）。
@@ -159,70 +96,12 @@
 
         -->
         <div style="color:#0000FF">
-            <h1>这是一个在 div 元素中的标题。</h1>
+            <h2>这是一个在 div 元素中的标题。</h2>
             <p>这是一个在 div 元素中的文本。</p>
         </div>
 
         <p>我的母亲有 <span style="color:blue">蓝色</span> 的眼睛。</p>
 
-
-        <!--布局:主要是通过设置颜色和内容位置设置来达到布局的效果
-            <div>
-            <table>
-        -->
-        
-        <div class="sidebar-box gallery-list">
-            <div class="design" id="leftcolumn" 
-            style="background-color:#FFD700;height:600px;width:150px;float:left;">
-                HTML 教程	        <br>
-                HTML 简介	        <br>
-                HTML 编辑器			<br>
-                HTML 基础			<br>
-                HTML 元素			<br>
-                HTML 属性			<br>
-                HTML 标题			<br>
-                HTML 段落			<br>
-                HTML 文本格式化		 <br>
-                HTML 链接			<br>
-                HTML 头部			<br>                          
-                HTML CSS			<br>
-                HTML 图像			<br>
-                HTML 表格			<br>
-                HTML 列表			<br>
-                HTML 区块			<br>
-                HTML 布局			<br>
-                HTML 表单			<br>
-                HTML 框架			<br>
-                HTML 颜色			<br>
-                HTML 颜色名			<br>
-                HTML 颜色值			<br>
-                HTML 脚本			<br>
-                HTML 字符实体		<br>
-                HTML URL		   <br>
-                HTML 速查列表		<br>
-                HTML 总结			<br>
-            </div>
-        </div>	
-
-        <div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
-            <p style="font-family:verdana;text-align:center;margin-left:20px;">我的第一个段落。</p>
-            <p> 我们无法确定 <span style="color:blue">HTML</span> 被显示的确切效果。屏幕的大小，
-                以及对窗口的调整都可能导致不同的结果。对于 <span style="color:blue">HTML</span>,
-                您无法通过在 <span style="color:blue">HTML</span> 
-                代码中添加额外的空格或换行来改变输出的效果。当显示页面时，浏览器会移
-                除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格。
-                需要注意的是,<span style="color:blue">HTML</span> 代码中的所有连续的空行（换行）也被显示为一个空格。
-            </p>
-        </div>
-        <!--表单
-            <form>
-        -->
-
-        <form action="">
-            First name: <input type="text" name="firstname"><br>
-            Last name: <input type="text" name="lastname">
-        </form>
-        
         <script>
             document.write("Hello World!");
         </script>
